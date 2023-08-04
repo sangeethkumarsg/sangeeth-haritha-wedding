@@ -1,0 +1,28 @@
+
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.content-text{
+    position: absolute;
+    top: 182px;
+    color: #fff;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
